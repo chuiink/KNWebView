@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'KNWebView_Example' do
+  pod 'KNWebView', :path => '../'
+
+  target 'KNWebView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
